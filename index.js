@@ -13,6 +13,10 @@ app.use(express.json());
 app.use(morgan("tiny"));
 app.use(require("cors")());
 
+app.get("/", (req, res) => {
+  res.send("hello world");
+});
+
 // routes
 app.use("/api", require("./routes/auth"));
 app.use("/api", require("./routes/contact"));
