@@ -1,7 +1,7 @@
 require("dotenv").config({ path: "./config/config.env" });
 const express = require("express");
 const morgan = require("morgan");
-
+const cors = require("cors");
 const connectDB = require("./config/db");
 
 const auth = require("./middlewares/auth");
