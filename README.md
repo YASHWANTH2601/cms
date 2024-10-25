@@ -41,7 +41,7 @@ Start the MongoDB service (or use MongoDB Atlas if using a cloud database).
 Environment Variables
 Create a .env file in the root directory with the following variables:
 
-mongodb+srv://{userName}:{userPassword}@{userHost}/?retryWrites=true&w=majority&appName={dataBaseNmae}<br />
+mongodb+srv://{userName}:{userPassword}@{userHost}/?retryWrites=true&w=majority&appName={dataBaseName}<br />
 
 MONGO_HOST=smtp.your-email-provider.com<br />
 MONGO_USER=your-email@example.com<br />
