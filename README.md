@@ -74,3 +74,8 @@ The database schema and indexes will be created automatically on the first run.
 Migrations (Optional):<br />
 
 Use MongoDB's built-in mongo shell or a tool like Mongoose for advanced schema migrations if needed.
+
+
+Deployed url:
+https://cms-orpin-two.vercel.app/
+
