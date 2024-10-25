@@ -15,9 +15,9 @@ Registration, login, and email verification
 Password reset with one-time code
 Contact Management
 
-CRUD operations with sorting, filtering, and soft delete
+<p>CRUD operations with sorting, filtering, and soft delete
 Batch processing for multiple contacts
-File Handling
+File Handling</p>
 
 CSV/Excel file upload for bulk contact creation
 Download contact data as CSV/Excel
