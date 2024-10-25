@@ -41,7 +41,7 @@ Start the MongoDB service (or use MongoDB Atlas if using a cloud database).
 Environment Variables
 Create a .env file in the root directory with the following variables:
 
-mongodb+srv://<userName>:<userPassword>@<userHost>/?retryWrites=true&w=majority&appName=<db><br />
+mongodb+srv://{userName}:{userPassword}@{userHost}/?retryWrites=true&w=majority&appName={dataBaseNmae}<br />
 
 MONGO_HOST=smtp.your-email-provider.com<br />
 MONGO_USER=your-email@example.com<br />
@@ -68,8 +68,9 @@ DELETE /api/contacts/:id – Soft delete a contact<br />
 Database Setup & Migrations
 Initialize the Database:
 
-Connect to MongoDB by setting MONGODB_URI in .env file.
+Connect to MongoDB by setting MONGODB_URI in .env file.<br />
+
 The database schema and indexes will be created automatically on the first run.
-Migrations (Optional):
+Migrations (Optional):<br />
 
 Use MongoDB's built-in mongo shell or a tool like Mongoose for advanced schema migrations if needed.
